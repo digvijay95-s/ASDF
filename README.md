@@ -1,5 +1,5 @@
-Project Title: Number Guessing Game.
-Description: A simple, robust CLI-based game where the player tries to guess a randomly generated number within a specific range. This project demonstrates fundamental Python concepts including loops, conditional logic, and user input validation.
+Number Guessing Game.
+A simple, robust CLI-based game where the player tries to guess a randomly generated number within a specific range. This project demonstrates fundamental Python concepts including loops, conditional logic, and user input validation.
 
 Features
 Input Validation: Handles non-integer inputs gracefully without crashing the program.
