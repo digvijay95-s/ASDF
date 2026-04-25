@@ -19,7 +19,7 @@ How to Run
 1. Ensure you have [python](https://www.python.org/) installed.
 2. Clone this repository:
    ```bash
-   git clone [https://github.com/digvijay95-s/number-guessing-game.git]
+   git clone https://github.com/digvijay95-s/number-guessing-game
 
 Future Improvements
   Add a "Play Again" functionality.
