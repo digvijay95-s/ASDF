@@ -1,4 +1,5 @@
 import random
+
 def play_game():
     low=0
     high=100
@@ -33,4 +34,9 @@ def play_game():
             print("Please select a number between {low} and {high}")
 
 if __name__ == "__main__":
-    play_game()
+    while True:
+        play_game()
+        again = input("Do you want to play again? (y/n): ").lower()
+        if again != 'y':
+            print("Thanks for playing! Goodbye.")
+            break
