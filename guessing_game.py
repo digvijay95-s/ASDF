@@ -45,7 +45,7 @@ class GuessingGame:
                 self.is_running = False
 
 if __name__ == "__main__":
-    game = GuessingGame(0, 100)
+    game = GuessingGame(0, 50)
     
     while True:
         game.play()
