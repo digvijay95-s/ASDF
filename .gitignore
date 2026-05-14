@@ -6,3 +6,15 @@ __pycache__/
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Environment variables (for secrets)
+.env
+
+# IDE specific files
+.vscode/
+.idea/

@@ -2,7 +2,6 @@ import random
 
 class GuessingGame:
     def __init__(self, low: int = 0, high: int = 100):
-        """Initializes the game state."""
         self.low = low
         self.high = high
         self.target_number = 0
@@ -10,13 +9,11 @@ class GuessingGame:
         self.is_running = False
 
     def _generate_number(self):
-        """Internal method to pick a random number."""
         self.target_number = random.randint(self.low, self.high)
         self.attempts = 0
         self.is_running = True
 
     def _get_valid_input(self) -> int:
-        """Handles input and ensures it is a valid digit."""
         while True:
             user_input = input(f"Enter your guess ({self.low}-{self.high}): ")
             if user_input.isdigit():
@@ -24,7 +21,6 @@ class GuessingGame:
             print("INVALID INPUT! Please enter a whole number.")
 
     def play(self):
-        """The main game loop."""
         self._generate_number()
         print("\n--- Python Number Guessing Game ---")
         print(f"I'm thinking of a number between {self.low} and {self.high}.")
@@ -45,7 +41,7 @@ class GuessingGame:
                 self.is_running = False
 
 if __name__ == "__main__":
-    game = GuessingGame(0, 50)
+    game = GuessingGame(0, 100)
     
     while True:
         game.play()
